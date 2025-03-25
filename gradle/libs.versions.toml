@@ -12,6 +12,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
+hiltEffects = "1.0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -24,6 +25,9 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+hilt-effects-compiler = { module = "com.elveum:effects-processor", version.ref = "hiltEffects" }
+hilt-effects-core = { module = "com.elveum:effects-core", version.ref = "hiltEffects" }
+hilt-effects-compose = { module = "com.elveum:effects-compose", version.ref = "hiltEffects" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -48,6 +48,10 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
 
+    implementation(libs.hilt.effects.core)
+    implementation(libs.hilt.effects.compose)
+    ksp(libs.hilt.effects.compiler)
+
     testImplementation(libs.junit)
 
     androidTestImplementation(libs.androidx.junit)
